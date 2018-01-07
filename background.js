@@ -3,7 +3,7 @@
  */
 
 // Create context menu item.
-var id = chrome.contextMenus.create({
+chrome.contextMenus.create({
   'title': 'Spin it!',
   'contexts': ['all'],
   'onclick': function (info, tab) {
